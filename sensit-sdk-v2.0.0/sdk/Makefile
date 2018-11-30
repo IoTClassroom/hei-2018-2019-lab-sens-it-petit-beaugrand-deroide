@@ -7,14 +7,14 @@
 # SDK LIBRARY
 # -----------
 LIB_NAME = SENSIT_SDK_V2.0.0
-LIB_PATH = lib
+LIB_PATH = C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib
 
 
 # --------------
 # OUTPUT FOLDERS
 # --------------
-BIN_PATH = bin
-OBJ_PATH = obj
+BIN_PATH = C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/bin
+OBJ_PATH = C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj
 
 
 # ------------
