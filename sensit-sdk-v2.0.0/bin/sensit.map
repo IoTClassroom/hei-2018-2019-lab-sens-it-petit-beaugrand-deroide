@@ -185,6 +185,8 @@ Discarded input sections
  .data          0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fcc.o
  .text          0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
  .data          0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
+ .text.HTS221_measure
+                0x00000000       0xdc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
  .text          0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
  .data          0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
  .bss           0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
@@ -197,30 +199,10 @@ Discarded input sections
  .text          0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
  .data          0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
  .bss           0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .text.FXOS8700_reset
-                0x00000000       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .text.FXOS8700_init
-                0x00000000       0x2e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
  .text.FXOS8700_set_standby_mode
                 0x00000000       0x22 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .text.FXOS8700_set_transient_mode
-                0x00000000       0xdc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .text.FXOS8700_clear_transient_interrupt
-                0x00000000       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
  .text.FXOS8700_read_acceleration
                 0x00000000       0x52 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .debug_info    0x00000000      0x4f3 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .debug_abbrev  0x00000000      0x15a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .debug_loc     0x00000000      0x223 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .debug_aranges
-                0x00000000       0x48 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .debug_ranges  0x00000000       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .debug_line    0x00000000      0x170 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .debug_str     0x00000000      0x331 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .comment       0x00000000       0x80 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .debug_frame   0x00000000       0xc8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
- .ARM.attributes
-                0x00000000       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
  .text          0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/AT_parser.o
  .data          0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/AT_parser.o
  .bss           0x00000000        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/AT_parser.o
@@ -339,8 +321,6 @@ Discarded input sections
                 0x00000000       0x70 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
  .text.SENSIT_API_get_reed_switch_state
                 0x00000000       0x24 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
- .text.SENSIT_API_configure_fxos8700_interrupt
-                0x00000000       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
  .text.SENSIT_API_init_nv_mem
                 0x00000000       0x24 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
  .text.SENSIT_API_get_nv_mem
@@ -860,7 +840,7 @@ LOAD C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugr
                 0x08000000                g_pfnVectors
                 0x080000c0                . = ALIGN (0x4)
 
-.text           0x080000c0     0x5b60
+.text           0x080000c0     0x5c1c
                 0x080000c0                . = ALIGN (0x4)
  *(.text)
  .text          0x080000c0       0x14 c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(_thumb1_case_uqi.o)
@@ -943,658 +923,671 @@ LOAD C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugr
  .text.HTS221_init
                 0x080012b4       0xbc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
                 0x080012b4                HTS221_init
- .text.HTS221_measure
-                0x08001370       0xdc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
-                0x08001370                HTS221_measure
  .text.LTR329_init
-                0x0800144c       0x54 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
-                0x0800144c                LTR329_init
+                0x08001370       0x54 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
+                0x08001370                LTR329_init
+ .text.FXOS8700_reset
+                0x080013c4       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+                0x080013c4                FXOS8700_reset
+ .text.FXOS8700_init
+                0x080013ec       0x2e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+                0x080013ec                FXOS8700_init
+ *fill*         0x0800141a        0x2 
+ .text.FXOS8700_set_transient_mode
+                0x0800141c       0xdc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+                0x0800141c                FXOS8700_set_transient_mode
+ .text.FXOS8700_clear_transient_interrupt
+                0x080014f8       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+                0x080014f8                FXOS8700_clear_transient_interrupt
  .text.DISCOVERY_build_payload
-                0x080014a0      0x108 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
-                0x080014a0                DISCOVERY_build_payload
+                0x08001520      0x108 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+                0x08001520                DISCOVERY_build_payload
  .text.startup.main
-                0x080015a8       0xec C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
-                0x080015a8                main
+                0x08001628       0xf8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
+                0x08001628                main
  .text.MCU_API_malloc
-                0x08001694       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001694                MCU_API_malloc
+                0x08001720       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001720                MCU_API_malloc
  .text.MCU_API_free
-                0x080016a8        0x4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080016a8                MCU_API_free
+                0x08001734        0x4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001734                MCU_API_free
  .text.MCU_API_get_voltage_temperature
-                0x080016ac       0x22 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080016ac                MCU_API_get_voltage_temperature
+                0x08001738       0x22 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001738                MCU_API_get_voltage_temperature
  .text.MCU_API_delay
-                0x080016ce       0x3e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080016ce                MCU_API_delay
+                0x0800175a       0x3e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x0800175a                MCU_API_delay
  .text.MCU_API_aes_128_cbc_encrypt
-                0x0800170c       0x62 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x0800170c                MCU_API_aes_128_cbc_encrypt
+                0x08001798       0x62 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001798                MCU_API_aes_128_cbc_encrypt
  .text.MCU_API_get_nv_mem
-                0x0800176e        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x0800176e                MCU_API_get_nv_mem
+                0x080017fa        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080017fa                MCU_API_get_nv_mem
  .text.MCU_API_set_nv_mem
-                0x0800177c       0x16 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x0800177c                MCU_API_set_nv_mem
- *fill*         0x08001792        0x2 
+                0x08001808       0x16 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001808                MCU_API_set_nv_mem
+ *fill*         0x0800181e        0x2 
  .text.MCU_API_timer_start_carrier_sense
-                0x08001794       0x60 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001794                MCU_API_timer_start_carrier_sense
+                0x08001820       0x60 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001820                MCU_API_timer_start_carrier_sense
  .text.TIM16_IRQHandler
-                0x080017f4       0x24 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x080017f4                TIM16_IRQHandler
+                0x08001880       0x24 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001880                TIM16_IRQHandler
  .text.MCU_API_timer_start
-                0x08001818        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001818                MCU_API_timer_start
+                0x080018a4        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080018a4                MCU_API_timer_start
  .text.MCU_API_timer_stop
-                0x08001824        0x4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001824                MCU_API_timer_stop
+                0x080018b0        0x4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080018b0                MCU_API_timer_stop
  .text.MCU_API_timer_stop_carrier_sense
-                0x08001828       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001828                MCU_API_timer_stop_carrier_sense
+                0x080018b4       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080018b4                MCU_API_timer_stop_carrier_sense
  .text.MCU_API_timer_wait_for_end
-                0x08001860       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001860                MCU_API_timer_wait_for_end
+                0x080018ec       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080018ec                MCU_API_timer_wait_for_end
  .text.MCU_API_report_test_result
-                0x08001870        0xa C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x08001870                MCU_API_report_test_result
+                0x080018fc        0xa C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x080018fc                MCU_API_report_test_result
  .text.MCU_API_get_device_id
-                0x0800187a       0x12 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
-                0x0800187a                MCU_API_get_device_id
+                0x08001906       0x12 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x08001906                MCU_API_get_device_id
  .text.NVMEM_API_get_device_id
-                0x0800188c       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x0800188c                NVMEM_API_get_device_id
+                0x08001918       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001918                NVMEM_API_get_device_id
  .text.NVMEM_API_get_frequency_calibration
-                0x080018b8       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x080018b8                NVMEM_API_get_frequency_calibration
+                0x08001944       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001944                NVMEM_API_get_frequency_calibration
  .text.NVMEM_API_get_radio_configuration
-                0x080018d4       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x080018d4                NVMEM_API_get_radio_configuration
+                0x08001960       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001960                NVMEM_API_get_radio_configuration
  .text.NVMEM_API_compute_aes
-                0x080018e8       0xc8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x080018e8                NVMEM_API_compute_aes
+                0x08001974       0xc8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001974                NVMEM_API_compute_aes
  .text.NVMEM_API_init_page_index
-                0x080019b0       0xb4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x080019b0                NVMEM_API_init_page_index
+                0x08001a3c       0xb4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001a3c                NVMEM_API_init_page_index
  .text.NVMEM_API_init
-                0x08001a64       0xa0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x08001a64                NVMEM_API_init
+                0x08001af0       0xa0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001af0                NVMEM_API_init
  .text.NVMEM_API_set_data
-                0x08001b04       0xd8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x08001b04                NVMEM_API_set_data
+                0x08001b90       0xd8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001b90                NVMEM_API_set_data
  .text.NVMEM_API_get_data
-                0x08001bdc       0x58 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
-                0x08001bdc                NVMEM_API_get_data
+                0x08001c68       0x58 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x08001c68                NVMEM_API_get_data
  .text.RADIO_init
-                0x08001c34       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001c34                RADIO_init
+                0x08001cc0       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001cc0                RADIO_init
  .text.RADIO_power_on
-                0x08001c50       0x44 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001c50                RADIO_power_on
+                0x08001cdc       0x44 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001cdc                RADIO_power_on
  .text.RADIO_power_off
-                0x08001c94       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001c94                RADIO_power_off
+                0x08001d20       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001d20                RADIO_power_off
  .text.RADIO_get_state
-                0x08001cc0        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001cc0                RADIO_get_state
+                0x08001d4c        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001d4c                RADIO_get_state
  .text.RADIO_set_rf_line
-                0x08001ccc       0x50 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001ccc                RADIO_set_rf_line
+                0x08001d58       0x50 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001d58                RADIO_set_rf_line
  .text.RADIO_is_600bps
-                0x08001d1c       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
-                0x08001d1c                RADIO_is_600bps
+                0x08001da8       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x08001da8                RADIO_is_600bps
  .text.RTC_init
-                0x08001d34       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001d34                RTC_init
+                0x08001dc0       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001dc0                RTC_init
  .text.RTC_get_current_time
-                0x08001d60        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001d60                RTC_get_current_time
+                0x08001dec        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001dec                RTC_get_current_time
  .text.RTC_set_alarm_timer
-                0x08001d6c       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001d6c                RTC_set_alarm_timer
+                0x08001df8       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001df8                RTC_set_alarm_timer
  .text.RTC_set_rx_timer
-                0x08001d80        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001d80                RTC_set_rx_timer
+                0x08001e0c        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001e0c                RTC_set_rx_timer
  .text.RTC_wait_frame
-                0x08001d8c       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001d8c                RTC_wait_frame
+                0x08001e18       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001e18                RTC_wait_frame
  .text.RTC_IRQHandler
-                0x08001db8       0x68 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
-                0x08001db8                RTC_IRQHandler
- .text._init    0x08001e20       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001e20                _init
+                0x08001e44       0x68 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x08001e44                RTC_IRQHandler
+ .text._init    0x08001eac       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001eac                _init
  .text.SENSIT_API_configure_radio
-                0x08001e3c       0x2a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001e3c                SENSIT_API_configure_radio
+                0x08001ec8       0x2a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001ec8                SENSIT_API_configure_radio
  .text.SENSIT_API_switch_radio
-                0x08001e66       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001e66                SENSIT_API_switch_radio
- *fill*         0x08001e9e        0x2 
+                0x08001ef2       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001ef2                SENSIT_API_switch_radio
+ *fill*         0x08001f2a        0x2 
  .text.SENSIT_API_reset
-                0x08001ea0       0x60 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001ea0                SENSIT_API_reset
+                0x08001f2c       0x60 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001f2c                SENSIT_API_reset
  .text.SENSIT_API_sleep
-                0x08001f00        0xa C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001f00                SENSIT_API_sleep
+                0x08001f8c        0xa C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001f8c                SENSIT_API_sleep
  .text.SENSIT_API_set_rtc_alarm
-                0x08001f0a        0xa C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001f0a                SENSIT_API_set_rtc_alarm
+                0x08001f96        0xa C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001f96                SENSIT_API_set_rtc_alarm
  .text.SENSIT_API_configure_button
-                0x08001f14       0x50 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001f14                SENSIT_API_configure_button
+                0x08001fa0       0x50 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001fa0                SENSIT_API_configure_button
  .text.SENSIT_API_get_button_state
-                0x08001f64       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001f64                SENSIT_API_get_button_state
+                0x08001ff0       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08001ff0                SENSIT_API_get_button_state
  .text.SENSIT_API_set_rgb_led
-                0x08001f78       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001f78                SENSIT_API_set_rgb_led
+                0x08002004       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08002004                SENSIT_API_set_rgb_led
  .text.SENSIT_API_set_white_led
-                0x08001fa8       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001fa8                SENSIT_API_set_white_led
+                0x08002034       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08002034                SENSIT_API_set_white_led
  .text.SENSIT_API_get_battery_level
-                0x08001fc0        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001fc0                SENSIT_API_get_battery_level
+                0x0800204c        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x0800204c                SENSIT_API_get_battery_level
  .text.SENSIT_API_get_current_time
-                0x08001fce        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001fce                SENSIT_API_get_current_time
+                0x0800205a        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x0800205a                SENSIT_API_get_current_time
  .text.SENSIT_API_wait
-                0x08001fdc        0xa C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001fdc                SENSIT_API_wait
+                0x08002068        0xa C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08002068                SENSIT_API_wait
  .text.SENSIT_API_write_read_i2c_bus
-                0x08001fe6       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08001fe6                SENSIT_API_write_read_i2c_bus
- *fill*         0x08002006        0x2 
+                0x08002072       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08002072                SENSIT_API_write_read_i2c_bus
+ *fill*         0x08002092        0x2 
+ .text.SENSIT_API_configure_fxos8700_interrupt
+                0x08002094       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x08002094                SENSIT_API_configure_fxos8700_interrupt
  .text.SENSIT_API_reset_device_sequence_number
-                0x08002008       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
-                0x08002008                SENSIT_API_reset_device_sequence_number
+                0x080020c4       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x080020c4                SENSIT_API_reset_device_sequence_number
  .text.SIGFOX_API_open
-                0x08002028      0x1b4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
-                0x08002028                SIGFOX_API_open
+                0x080020e4      0x1b4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x080020e4                SIGFOX_API_open
  .text.SIGFOX_API_send_frame
-                0x080021dc       0x48 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
-                0x080021dc                SIGFOX_API_send_frame
+                0x08002298       0x48 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x08002298                SIGFOX_API_send_frame
  .text.SIGFOX_API_set_std_config
-                0x08002224       0x90 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
-                0x08002224                SIGFOX_API_set_std_config
+                0x080022e0       0x90 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x080022e0                SIGFOX_API_set_std_config
  .text.SIGFOX_INT_randomize
-                0x080022b4       0x16 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080022b4                SIGFOX_INT_randomize
+                0x08002370       0x16 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002370                SIGFOX_INT_randomize
  .text.SIGFOX_INT_get_max_micro_channel
-                0x080022ca       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080022ca                SIGFOX_INT_get_max_micro_channel
+                0x08002386       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002386                SIGFOX_INT_get_max_micro_channel
  .text.SIGFOX_INT_get_macro_channel_index
-                0x080022fa       0x5a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080022fa                SIGFOX_INT_get_macro_channel_index
+                0x080023b6       0x5a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080023b6                SIGFOX_INT_get_macro_channel_index
  .text.SIGFOX_INT_dc_lbt_channel_pn_max
-                0x08002354       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002354                SIGFOX_INT_dc_lbt_channel_pn_max
+                0x08002410       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002410                SIGFOX_INT_dc_lbt_channel_pn_max
  .text.SIGFOX_INT_dc_lbt_channel_pn_min
-                0x08002384       0x22 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002384                SIGFOX_INT_dc_lbt_channel_pn_min
+                0x08002440       0x22 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002440                SIGFOX_INT_dc_lbt_channel_pn_min
  .text.RETURN_CODE
-                0x080023a6        0x8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080023a6                RETURN_CODE
- *fill*         0x080023ae        0x2 
+                0x08002462        0x8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002462                RETURN_CODE
+ *fill*         0x0800246a        0x2 
  .text.SIGFOX_INT_compute_channels
-                0x080023b0      0x134 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080023b0                SIGFOX_INT_compute_channels
+                0x0800246c      0x134 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x0800246c                SIGFOX_INT_compute_channels
  .text.SIGFOX_INT_compute_carrier_sense_frequency
-                0x080024e4       0x2e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080024e4                SIGFOX_INT_compute_carrier_sense_frequency
+                0x080025a0       0x2e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080025a0                SIGFOX_INT_compute_carrier_sense_frequency
  .text.SIGFOX_INT_store_nvm
-                0x08002512       0x32 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002512                SIGFOX_INT_store_nvm
+                0x080025ce       0x32 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080025ce                SIGFOX_INT_store_nvm
  .text.SIGFOX_INT_build_frame
-                0x08002544      0x1da C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002544                SIGFOX_INT_build_frame
- *fill*         0x0800271e        0x2 
+                0x08002600      0x1da C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002600                SIGFOX_INT_build_frame
+ *fill*         0x080027da        0x2 
  .text.SIGFOX_INT_prepare_transmission
-                0x08002720       0x88 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002720                SIGFOX_INT_prepare_transmission
+                0x080027dc       0x88 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080027dc                SIGFOX_INT_prepare_transmission
  .text.SIGFOX_INT_send_single_frame
-                0x080027a8       0x98 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080027a8                SIGFOX_INT_send_single_frame
+                0x08002864       0x98 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002864                SIGFOX_INT_send_single_frame
  .text.SIGFOX_INT_execute_carrier_sense
-                0x08002840       0x3a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002840                SIGFOX_INT_execute_carrier_sense
+                0x080028fc       0x3a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x080028fc                SIGFOX_INT_execute_carrier_sense
  .text.SIGFOX_INT_downlink_configuration
-                0x0800287a       0x4c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x0800287a                SIGFOX_INT_downlink_configuration
+                0x08002936       0x4c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002936                SIGFOX_INT_downlink_configuration
  .text.SIGFOX_INT_get_received_frames
-                0x080028c6      0x10a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080028c6                SIGFOX_INT_get_received_frames
+                0x08002982      0x10a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002982                SIGFOX_INT_get_received_frames
  .text.SIGFOX_INT_process_downlink
-                0x080029d0       0x46 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x080029d0                SIGFOX_INT_process_downlink
- *fill*         0x08002a16        0x2 
+                0x08002a8c       0x46 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002a8c                SIGFOX_INT_process_downlink
+ *fill*         0x08002ad2        0x2 
  .text.SIGFOX_INT_compute_uplink_frequency
-                0x08002a18       0x94 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002a18                SIGFOX_INT_compute_uplink_frequency
+                0x08002ad4       0x94 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002ad4                SIGFOX_INT_compute_uplink_frequency
  .text.SIGFOX_INT_process_uplink
-                0x08002aac      0x28c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002aac                SIGFOX_INT_process_uplink
+                0x08002b68      0x28c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002b68                SIGFOX_INT_process_uplink
  .text.SIGFOX_INT_execute_communication_sequence
-                0x08002d38      0x118 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002d38                SIGFOX_INT_execute_communication_sequence
+                0x08002df4      0x118 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002df4                SIGFOX_INT_execute_communication_sequence
  .text.SIGFOX_INT_get_device_id
-                0x08002e50       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08002e50                SIGFOX_INT_get_device_id
+                0x08002f0c       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08002f0c                SIGFOX_INT_get_device_id
  .text.SIGFOX_PN_next_pn
-                0x08002e68       0x50 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_pn.o)
-                0x08002e68                SIGFOX_PN_next_pn
+                0x08002f24       0x50 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_pn.o)
+                0x08002f24                SIGFOX_PN_next_pn
  .text.SIGFOX_SCRAMB_compute
-                0x08002eb8       0x8c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
-                0x08002eb8                SIGFOX_SCRAMB_compute
+                0x08002f74       0x8c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
+                0x08002f74                SIGFOX_SCRAMB_compute
  .text.SLEEP_handler
-                0x08002f44       0x88 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sleep.o)
-                0x08002f44                SLEEP_handler
+                0x08003000       0x88 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sleep.o)
+                0x08003000                SLEEP_handler
  .text.SPI_init
-                0x08002fcc       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08002fcc                SPI_init
+                0x08003088       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x08003088                SPI_init
  .text.SPI_disable
-                0x08002ffc       0x34 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08002ffc                SPI_disable
+                0x080030b8       0x34 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x080030b8                SPI_disable
  .text.SPI_enable
-                0x08003030       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08003030                SPI_enable
+                0x080030ec       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x080030ec                SPI_enable
  .text.SPI_write_read
-                0x08003060       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
-                0x08003060                SPI_write_read
+                0x0800311c       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x0800311c                SPI_write_read
  .text.Reset_Handler
-                0x0800308c       0x80 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
-                0x0800308c                Reset_Handler
+                0x08003148       0x80 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
+                0x08003148                Reset_Handler
  .text.Default_Handler
-                0x0800310c        0x2 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
-                0x0800310c                TIM1_CC_IRQHandler
-                0x0800310c                TSC_IRQHandler
-                0x0800310c                SysTick_Handler
-                0x0800310c                PendSV_Handler
-                0x0800310c                I2C1_IRQHandler
-                0x0800310c                RCC_CRS_IRQHandler
-                0x0800310c                SPI1_IRQHandler
-                0x0800310c                EXTI2_3_IRQHandler
-                0x0800310c                ADC1_IRQHandler
-                0x0800310c                TIM17_IRQHandler
-                0x0800310c                CEC_CAN_IRQHandler
-                0x0800310c                PVD_VDDIO2_IRQHandler
-                0x0800310c                TIM3_IRQHandler
-                0x0800310c                DMA1_Channel1_IRQHandler
-                0x0800310c                Default_Handler
-                0x0800310c                TIM14_IRQHandler
-                0x0800310c                DMA1_Channel4_5_IRQHandler
-                0x0800310c                EXTI0_1_IRQHandler
-                0x0800310c                SPI2_IRQHandler
-                0x0800310c                SVC_Handler
-                0x0800310c                DMA1_Channel2_3_IRQHandler
-                0x0800310c                USART2_IRQHandler
-                0x0800310c                FLASH_IRQHandler
-                0x0800310c                TIM1_BRK_UP_TRG_COM_IRQHandler
- *fill*         0x0800310e        0x2 
+                0x080031c8        0x2 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
+                0x080031c8                TIM1_CC_IRQHandler
+                0x080031c8                TSC_IRQHandler
+                0x080031c8                SysTick_Handler
+                0x080031c8                PendSV_Handler
+                0x080031c8                I2C1_IRQHandler
+                0x080031c8                RCC_CRS_IRQHandler
+                0x080031c8                SPI1_IRQHandler
+                0x080031c8                EXTI2_3_IRQHandler
+                0x080031c8                ADC1_IRQHandler
+                0x080031c8                TIM17_IRQHandler
+                0x080031c8                CEC_CAN_IRQHandler
+                0x080031c8                PVD_VDDIO2_IRQHandler
+                0x080031c8                TIM3_IRQHandler
+                0x080031c8                DMA1_Channel1_IRQHandler
+                0x080031c8                Default_Handler
+                0x080031c8                TIM14_IRQHandler
+                0x080031c8                DMA1_Channel4_5_IRQHandler
+                0x080031c8                EXTI0_1_IRQHandler
+                0x080031c8                SPI2_IRQHandler
+                0x080031c8                SVC_Handler
+                0x080031c8                DMA1_Channel2_3_IRQHandler
+                0x080031c8                USART2_IRQHandler
+                0x080031c8                FLASH_IRQHandler
+                0x080031c8                TIM1_BRK_UP_TRG_COM_IRQHandler
+ *fill*         0x080031ca        0x2 
  .text.SystemInit
-                0x08003110      0x178 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(system_stm32f0xx.o)
-                0x08003110                SystemInit
+                0x080031cc      0x178 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(system_stm32f0xx.o)
+                0x080031cc                SystemInit
  .text.SYSTICK_wait_ms
-                0x08003288       0x84 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(systick.o)
-                0x08003288                SYSTICK_wait_ms
+                0x08003344       0x84 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(systick.o)
+                0x08003344                SYSTICK_wait_ms
  .text.SYSTICK_wait_tick
-                0x0800330c       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(systick.o)
-                0x0800330c                SYSTICK_wait_tick
+                0x080033c8       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(systick.o)
+                0x080033c8                SYSTICK_wait_tick
  .text.USART1_IRQHandler
-                0x08003344       0x68 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(uart.o)
-                0x08003344                USART1_IRQHandler
+                0x08003400       0x68 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(uart.o)
+                0x08003400                USART1_IRQHandler
  .text.HAL_PCD_SetupStageCallback
-                0x080033ac       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080033ac                HAL_PCD_SetupStageCallback
+                0x08003468       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003468                HAL_PCD_SetupStageCallback
  .text.HAL_PCD_DataOutStageCallback
-                0x080033c0       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080033c0                HAL_PCD_DataOutStageCallback
+                0x0800347c       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x0800347c                HAL_PCD_DataOutStageCallback
  .text.HAL_PCD_DataInStageCallback
-                0x080033d8       0x16 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080033d8                HAL_PCD_DataInStageCallback
+                0x08003494       0x16 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003494                HAL_PCD_DataInStageCallback
  .text.HAL_PCD_SOFCallback
-                0x080033ee        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080033ee                HAL_PCD_SOFCallback
+                0x080034aa        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080034aa                HAL_PCD_SOFCallback
  .text.HAL_PCD_ResetCallback
-                0x080033fc       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080033fc                HAL_PCD_ResetCallback
+                0x080034b8       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080034b8                HAL_PCD_ResetCallback
  .text.HAL_PCD_SuspendCallback
-                0x08003414        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003414                HAL_PCD_SuspendCallback
+                0x080034d0        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080034d0                HAL_PCD_SuspendCallback
  .text.HAL_PCD_ResumeCallback
-                0x08003422        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003422                HAL_PCD_ResumeCallback
+                0x080034de        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080034de                HAL_PCD_ResumeCallback
  .text.USBD_LL_OpenEP
-                0x08003430       0x16 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003430                USBD_LL_OpenEP
+                0x080034ec       0x16 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x080034ec                USBD_LL_OpenEP
  .text.USBD_LL_StallEP
-                0x08003446       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003446                USBD_LL_StallEP
+                0x08003502       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003502                USBD_LL_StallEP
  .text.USBD_LL_ClearStallEP
-                0x08003456       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003456                USBD_LL_ClearStallEP
+                0x08003512       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003512                USBD_LL_ClearStallEP
  .text.USBD_LL_IsStallEP
-                0x08003466       0x26 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x08003466                USBD_LL_IsStallEP
+                0x08003522       0x26 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003522                USBD_LL_IsStallEP
  .text.USBD_LL_SetUSBAddress
-                0x0800348c       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x0800348c                USBD_LL_SetUSBAddress
+                0x08003548       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003548                USBD_LL_SetUSBAddress
  .text.USBD_LL_Transmit
-                0x0800349c       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x0800349c                USBD_LL_Transmit
+                0x08003558       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003558                USBD_LL_Transmit
  .text.USBD_LL_PrepareReceive
-                0x080034ac       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080034ac                USBD_LL_PrepareReceive
+                0x08003568       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003568                USBD_LL_PrepareReceive
  .text.USB_IRQHandler
-                0x080034bc       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
-                0x080034bc                USB_IRQHandler
+                0x08003578       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x08003578                USB_IRQHandler
  .text.USBD_SetClassConfig
-                0x080034cc       0x1a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080034cc                USBD_SetClassConfig
+                0x08003588       0x1a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x08003588                USBD_SetClassConfig
  .text.USBD_ClrClassConfig
-                0x080034e6       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080034e6                USBD_ClrClassConfig
- *fill*         0x080034f6        0x2 
+                0x080035a2       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080035a2                USBD_ClrClassConfig
+ *fill*         0x080035b2        0x2 
  .text.USBD_LL_SetupStage
-                0x080034f8       0x68 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080034f8                USBD_LL_SetupStage
+                0x080035b4       0x68 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080035b4                USBD_LL_SetupStage
  .text.USBD_LL_DataOutStage
-                0x08003560       0x74 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003560                USBD_LL_DataOutStage
+                0x0800361c       0x74 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x0800361c                USBD_LL_DataOutStage
  .text.USBD_LL_DataInStage
-                0x080035d4       0xac C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080035d4                USBD_LL_DataInStage
+                0x08003690       0xac C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x08003690                USBD_LL_DataInStage
  .text.USBD_LL_Reset
-                0x08003680       0x48 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x08003680                USBD_LL_Reset
+                0x0800373c       0x48 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x0800373c                USBD_LL_Reset
  .text.USBD_LL_SetSpeed
-                0x080036c8        0x6 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080036c8                USBD_LL_SetSpeed
+                0x08003784        0x6 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x08003784                USBD_LL_SetSpeed
  .text.USBD_LL_Suspend
-                0x080036ce       0x16 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080036ce                USBD_LL_Suspend
+                0x0800378a       0x16 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x0800378a                USBD_LL_Suspend
  .text.USBD_LL_Resume
-                0x080036e4        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080036e4                USBD_LL_Resume
+                0x080037a0        0xe C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080037a0                USBD_LL_Resume
  .text.USBD_LL_SOF
-                0x080036f2       0x1e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
-                0x080036f2                USBD_LL_SOF
+                0x080037ae       0x1e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x080037ae                USBD_LL_SOF
  .text.USBD_CtlError.constprop.0
-                0x08003710       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x080037cc       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
  .text.USBD_StdDevReq
-                0x08003724      0x224 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x08003724                USBD_StdDevReq
+                0x080037e0      0x224 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x080037e0                USBD_StdDevReq
  .text.USBD_StdItfReq
-                0x08003948       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x08003948                USBD_StdItfReq
+                0x08003a04       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x08003a04                USBD_StdItfReq
  .text.USBD_StdEPReq
-                0x08003980       0xd4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x08003980                USBD_StdEPReq
+                0x08003a3c       0xd4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x08003a3c                USBD_StdEPReq
  .text.USBD_ParseSetupRequest
-                0x08003a54       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
-                0x08003a54                USBD_ParseSetupRequest
+                0x08003b10       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x08003b10                USBD_ParseSetupRequest
  .text.USBD_CtlSendData
-                0x08003a7c       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x08003a7c                USBD_CtlSendData
+                0x08003b38       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003b38                USBD_CtlSendData
  .text.USBD_CtlContinueSendData
-                0x08003a98       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x08003a98                USBD_CtlContinueSendData
+                0x08003b54       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003b54                USBD_CtlContinueSendData
  .text.USBD_CtlContinueRx
-                0x08003aa8       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x08003aa8                USBD_CtlContinueRx
+                0x08003b64       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003b64                USBD_CtlContinueRx
  .text.USBD_CtlSendStatus
-                0x08003ab8       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x08003ab8                USBD_CtlSendStatus
+                0x08003b74       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003b74                USBD_CtlSendStatus
  .text.USBD_CtlReceiveStatus
-                0x08003ad0       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
-                0x08003ad0                USBD_CtlReceiveStatus
+                0x08003b8c       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x08003b8c                USBD_CtlReceiveStatus
  .text.WATCHDOG_clear
-                0x08003ae8       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(watchdog.o)
-                0x08003ae8                WATCHDOG_clear
+                0x08003ba4       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(watchdog.o)
+                0x08003ba4                WATCHDOG_clear
  .text.ADC_init
-                0x08003af8       0x88 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003af8                ADC_init
+                0x08003bb4       0x88 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003bb4                ADC_init
  .text.ADC_measure_battery
-                0x08003b80       0x84 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003b80                ADC_measure_battery
+                0x08003c3c       0x84 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003c3c                ADC_measure_battery
  .text.ADC_get_last_battery_level
-                0x08003c04        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003c04                ADC_get_last_battery_level
+                0x08003cc0        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003cc0                ADC_get_last_battery_level
  .text.ADC_get_battery_level
-                0x08003c10       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003c10                ADC_get_battery_level
+                0x08003ccc       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003ccc                ADC_get_battery_level
  .text.ADC_measure_temperature
-                0x08003c20       0x68 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
-                0x08003c20                ADC_measure_temperature
+                0x08003cdc       0x68 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x08003cdc                ADC_measure_temperature
  .text.AESEncode
-                0x08003c88      0x1c0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(aes.o)
-                0x08003c88                AESEncode
+                0x08003d44      0x1c0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(aes.o)
+                0x08003d44                AESEncode
  .text.calibReadHSI48clk
-                0x08003e48       0x84 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x08003f04       0x84 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
  .text.calibRTCclkIsCalibrated
-                0x08003ecc      0x1a0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
-                0x08003ecc                calibRTCclkIsCalibrated
+                0x08003f88      0x1a0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x08003f88                calibRTCclkIsCalibrated
  .text.calibHSI48clkIsCalibrated
-                0x0800406c       0x90 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
-                0x0800406c                calibHSI48clkIsCalibrated
+                0x08004128       0x90 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x08004128                calibHSI48clkIsCalibrated
  .text.CC1125_send_strobe
-                0x080040fc       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x080040fc                CC1125_send_strobe
+                0x080041b8       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x080041b8                CC1125_send_strobe
  .text.CC1125_write_reg
-                0x08004128       0x54 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x08004128                CC1125_write_reg
+                0x080041e4       0x54 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x080041e4                CC1125_write_reg
  .text.CC1125_read_reg
-                0x0800417c       0x54 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x0800417c                CC1125_read_reg
+                0x08004238       0x54 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x08004238                CC1125_read_reg
  .text.CC1125_output_clock
-                0x080041d0       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
-                0x080041d0                CC1125_output_clock
+                0x0800428c       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x0800428c                CC1125_output_clock
  .text.CRC_compute
-                0x080041e8       0x4c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(crc.o)
-                0x080041e8                CRC_compute
+                0x080042a4       0x4c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(crc.o)
+                0x080042a4                CRC_compute
  .text.FLASH_unlock
-                0x08004234       0x3c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x08004234                FLASH_unlock
+                0x080042f0       0x3c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x080042f0                FLASH_unlock
  .text.FLASH_lock
-                0x08004270       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x08004270                FLASH_lock
+                0x0800432c       0x14 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x0800432c                FLASH_lock
  .text.FLASH_write
-                0x08004284       0x40 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x08004284                FLASH_write
+                0x08004340       0x40 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x08004340                FLASH_write
  .text.FLASH_erase_page
-                0x080042c4       0x90 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
-                0x080042c4                FLASH_erase_page
+                0x08004380       0x90 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x08004380                FLASH_erase_page
  .text._handler
-                0x08004354       0x44 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x08004410       0x44 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
  .text.GPIO_init
-                0x08004398       0xcc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x08004398                GPIO_init
+                0x08004454       0xcc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x08004454                GPIO_init
  .text.EXTI4_15_IRQHandler
-                0x08004464       0x88 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x08004464                EXTI4_15_IRQHandler
+                0x08004520       0x88 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x08004520                EXTI4_15_IRQHandler
  .text.HardFault_Handler
-                0x080044ec        0x8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x080044ec                HardFault_Handler
+                0x080045a8        0x8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x080045a8                HardFault_Handler
  .text.NMI_Handler
-                0x080044f4        0x8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x080044f4                NMI_Handler
+                0x080045b0        0x8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x080045b0                NMI_Handler
  .text.WWDG_IRQHandler
-                0x080044fc        0x8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
-                0x080044fc                WWDG_IRQHandler
+                0x080045b8        0x8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x080045b8                WWDG_IRQHandler
  .text.I2C_init
-                0x08004504       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(i2c.o)
-                0x08004504                I2C_init
+                0x080045c0       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(i2c.o)
+                0x080045c0                I2C_init
  .text.I2C_write_read
-                0x08004534      0x160 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(i2c.o)
-                0x08004534                I2C_write_read
+                0x080045f0      0x160 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(i2c.o)
+                0x080045f0                I2C_write_read
  .text.LED_set_toggle_color
-                0x08004694        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(led.o)
-                0x08004694                LED_set_toggle_color
+                0x08004750        0xc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(led.o)
+                0x08004750                LED_set_toggle_color
  .text.LED_toggle
-                0x080046a0       0x5c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(led.o)
-                0x080046a0                LED_toggle
+                0x0800475c       0x5c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(led.o)
+                0x0800475c                LED_toggle
  .text.my_memcpy
-                0x080046fc       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(my_string.o)
-                0x080046fc                my_memcpy
+                0x080047b8       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(my_string.o)
+                0x080047b8                my_memcpy
  .text.my_memcmp
-                0x08004718       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(my_string.o)
-                0x08004718                my_memcmp
+                0x080047d4       0x1c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(my_string.o)
+                0x080047d4                my_memcmp
  .text.RF_API_init
-                0x08004734       0x64 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x08004734                RF_API_init
+                0x080047f0       0x64 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x080047f0                RF_API_init
  .text.RF_API_stop
-                0x08004798       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x08004798                RF_API_stop
+                0x08004854       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004854                RF_API_stop
  .text.RF_API_send
-                0x080047c0       0x3c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x080047c0                RF_API_send
+                0x0800487c       0x3c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x0800487c                RF_API_send
  .text.RF_API_change_frequency
-                0x080047fc      0x180 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x080047fc                RF_API_change_frequency
+                0x080048b8      0x180 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x080048b8                RF_API_change_frequency
  .text.RF_API_wait_frame
-                0x0800497c       0xe0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x0800497c                RF_API_wait_frame
+                0x08004a38       0xe0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004a38                RF_API_wait_frame
  .text.RF_API_wait_for_clear_channel
-                0x08004a5c       0xb0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
-                0x08004a5c                RF_API_wait_for_clear_channel
+                0x08004b18       0xb0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x08004b18                RF_API_wait_for_clear_channel
  .text.SIGFOX_CRC_crc16
-                0x08004b0c       0x3c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
-                0x08004b0c                SIGFOX_CRC_crc16
+                0x08004bc8       0x3c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
+                0x08004bc8                SIGFOX_CRC_crc16
  .text.SIGFOX_CRC_crc8
-                0x08004b48       0x34 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
-                0x08004b48                SIGFOX_CRC_crc8
+                0x08004c04       0x34 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
+                0x08004c04                SIGFOX_CRC_crc8
  .text.SIGFOX_DECODE_dewhitening_pn
-                0x08004b7c       0x26 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
- *fill*         0x08004ba2        0x2 
+                0x08004c38       0x26 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+ *fill*         0x08004c5e        0x2 
  .text.SIGFOX_DECODE_decode_frame
-                0x08004ba4      0x164 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
-                0x08004ba4                SIGFOX_DECODE_decode_frame
+                0x08004c60      0x164 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+                0x08004c60                SIGFOX_DECODE_decode_frame
  .text.SIGFOX_HMAC_compute_aes
-                0x08004d08       0x54 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_hmac.o)
-                0x08004d08                SIGFOX_HMAC_compute_aes
+                0x08004dc4       0x54 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_hmac.o)
+                0x08004dc4                SIGFOX_HMAC_compute_aes
  .text.PCD_WritePMA
-                0x08004d5c       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004e18       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
  .text.PCD_ReadPMA
-                0x08004d84       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004e40       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
  .text.HAL_PCD_SetAddress
-                0x08004da4       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08004da4                HAL_PCD_SetAddress
+                0x08004e60       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004e60                HAL_PCD_SetAddress
  .text.HAL_PCD_EP_Open
-                0x08004dd0      0x2b0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08004dd0                HAL_PCD_EP_Open
+                0x08004e8c      0x2b0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08004e8c                HAL_PCD_EP_Open
  .text.HAL_PCD_EP_Receive
-                0x08005080       0xe8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08005080                HAL_PCD_EP_Receive
+                0x0800513c       0xe8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x0800513c                HAL_PCD_EP_Receive
  .text.HAL_PCD_EP_Transmit
-                0x08005168      0x1e4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08005168                HAL_PCD_EP_Transmit
+                0x08005224      0x1e4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08005224                HAL_PCD_EP_Transmit
  .text.HAL_PCD_IRQHandler
-                0x0800534c      0x464 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x0800534c                HAL_PCD_IRQHandler
+                0x08005408      0x464 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x08005408                HAL_PCD_IRQHandler
  .text.HAL_PCD_EP_SetStall
-                0x080057b0       0x90 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x080057b0                HAL_PCD_EP_SetStall
+                0x0800586c       0x90 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x0800586c                HAL_PCD_EP_SetStall
  .text.HAL_PCD_EP_ClrStall
-                0x08005840       0xbc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
-                0x08005840                HAL_PCD_EP_ClrStall
+                0x080058fc       0xbc C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x080058fc                HAL_PCD_EP_ClrStall
  .text.MODULATION_ramp_up
-                0x080058fc       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x080059b8       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
  .text.MODULATION_ramp_down
-                0x08005924       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x080059e0       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
  .text.MODULATION_init
-                0x08005950       0xe0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x08005950                MODULATION_init
+                0x08005a0c       0xe0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005a0c                MODULATION_init
  .text.MODULATION_stop
-                0x08005a30       0x3c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x08005a30                MODULATION_stop
+                0x08005aec       0x3c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005aec                MODULATION_stop
  .text.MODULATION_process
-                0x08005a6c       0xa4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x08005a6c                MODULATION_process
+                0x08005b28       0xa4 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005b28                MODULATION_process
  .text.TIM2_IRQHandler
-                0x08005b10       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
-                0x08005b10                TIM2_IRQHandler
+                0x08005bcc       0x2c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x08005bcc                TIM2_IRQHandler
  .text.__libc_init_array
-                0x08005b3c       0x48 c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-init.o)
-                0x08005b3c                __libc_init_array
- .text.memset   0x08005b84       0x9c c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
-                0x08005b84                memset
+                0x08005bf8       0x48 c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-init.o)
+                0x08005bf8                __libc_init_array
+ .text.memset   0x08005c40       0x9c c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v6-m\libc.a(lib_a-memset.o)
+                0x08005c40                memset
  *(.glue_7)
- .glue_7        0x08005c20        0x0 linker stubs
+ .glue_7        0x08005cdc        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08005c20        0x0 linker stubs
+ .glue_7t       0x08005cdc        0x0 linker stubs
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x08005c20                . = ALIGN (0x4)
-                0x08005c20                _etext = .
+                0x08005cdc                . = ALIGN (0x4)
+                0x08005cdc                _etext = .
 
-.vfp11_veneer   0x08005c20        0x0
- .vfp11_veneer  0x08005c20        0x0 linker stubs
+.vfp11_veneer   0x08005cdc        0x0
+ .vfp11_veneer  0x08005cdc        0x0 linker stubs
 
-.v4_bx          0x08005c20        0x0
- .v4_bx         0x08005c20        0x0 linker stubs
+.v4_bx          0x08005cdc        0x0
+ .v4_bx         0x08005cdc        0x0 linker stubs
 
-.iplt           0x08005c20        0x0
- .iplt          0x08005c20        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
+.iplt           0x08005cdc        0x0
+ .iplt          0x08005cdc        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
 
-.rodata         0x08005c20      0x3c4
-                0x08005c20                . = ALIGN (0x4)
+.rodata         0x08005cdc      0x3c4
+                0x08005cdc                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08005c20       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
- .rodata        0x08005c30       0x34 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
-                0x08005c30                fsync_lut_tx
-                0x08005c54                public_key
- .rodata        0x08005c64       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
- .rodata        0x08005c74      0x100 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(aes.o)
-                0x08005c74                STable
- .rodata        0x08005d74      0x190 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
- .rodata        0x08005f04       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
-                0x08005f04                pow_alpha
-                0x08005f14                log_alpha
- .rodata        0x08005f24       0x80 c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(divsf3.o)
- .rodata        0x08005fa4       0x40 c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(mulsf3.o)
+ .rodata        0x08005cdc       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+ .rodata        0x08005cec       0x34 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x08005cec                fsync_lut_tx
+                0x08005d10                public_key
+ .rodata        0x08005d20       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
+ .rodata        0x08005d30      0x100 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(aes.o)
+                0x08005d30                STable
+ .rodata        0x08005e30      0x190 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+ .rodata        0x08005fc0       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+                0x08005fc0                pow_alpha
+                0x08005fd0                log_alpha
+ .rodata        0x08005fe0       0x80 c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(divsf3.o)
+ .rodata        0x08006060       0x40 c:/program files (x86)/gnu tools arm embedded/7 2018-q2-update/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v6-m\libgcc.a(mulsf3.o)
  *(.rodata*)
-                0x08005fe4                . = ALIGN (0x4)
+                0x080060a0                . = ALIGN (0x4)
 
-.rel.dyn        0x08005fe4        0x0
- .rel.iplt      0x08005fe4        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
+.rel.dyn        0x080060a0        0x0
+ .rel.iplt      0x080060a0        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
 
-.ARM.extab      0x08005fe4        0x0
-                0x08005fe4                . = ALIGN (0x4)
+.ARM.extab      0x080060a0        0x0
+                0x080060a0                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08005fe4                . = ALIGN (0x4)
+                0x080060a0                . = ALIGN (0x4)
 
-.ARM            0x08005fe4        0x0
-                0x08005fe4                . = ALIGN (0x4)
-                0x08005fe4                __exidx_start = .
+.ARM            0x080060a0        0x0
+                0x080060a0                . = ALIGN (0x4)
+                0x080060a0                __exidx_start = .
  *(.ARM.exidx*)
-                0x08005fe4                __exidx_end = .
-                0x08005fe4                . = ALIGN (0x4)
+                0x080060a0                __exidx_end = .
+                0x080060a0                . = ALIGN (0x4)
 
-.preinit_array  0x08005fe4        0x0
-                0x08005fe4                . = ALIGN (0x4)
-                0x08005fe4                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080060a0        0x0
+                0x080060a0                . = ALIGN (0x4)
+                0x080060a0                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08005fe4                PROVIDE (__preinit_array_end = .)
-                0x08005fe4                . = ALIGN (0x4)
+                0x080060a0                PROVIDE (__preinit_array_end = .)
+                0x080060a0                . = ALIGN (0x4)
 
-.init_array     0x08005fe4        0x0
-                0x08005fe4                . = ALIGN (0x4)
-                0x08005fe4                PROVIDE (__init_array_start = .)
+.init_array     0x080060a0        0x0
+                0x080060a0                . = ALIGN (0x4)
+                0x080060a0                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
-                0x08005fe4                PROVIDE (__init_array_end = .)
-                0x08005fe4                . = ALIGN (0x4)
+                0x080060a0                PROVIDE (__init_array_end = .)
+                0x080060a0                . = ALIGN (0x4)
 
-.fini_array     0x08005fe4        0x0
-                0x08005fe4                . = ALIGN (0x4)
+.fini_array     0x080060a0        0x0
+                0x080060a0                . = ALIGN (0x4)
                 [!provide]                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
                 [!provide]                PROVIDE (__fini_array_end = .)
-                0x08005fe4                . = ALIGN (0x4)
-                0x08005fe4                _sidata = LOADADDR (.data)
+                0x080060a0                . = ALIGN (0x4)
+                0x080060a0                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x1e8 load address 0x08005fe4
+.data           0x20000000      0x1e8 load address 0x080060a0
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1611,11 +1604,11 @@ LOAD C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugr
  *fill*         0x200001e7        0x1 
                 0x200001e8                _edata = .
 
-.igot.plt       0x200001e8        0x0 load address 0x080061cc
+.igot.plt       0x200001e8        0x0 load address 0x08006288
  .igot.plt      0x200001e8        0x0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
                 0x200001e8                . = ALIGN (0x4)
 
-.bss            0x200001e8      0x5d0 load address 0x080061cc
+.bss            0x200001e8      0x5d0 load address 0x08006288
                 0x200001e8                _sbss = .
                 0x200001e8                __bss_start__ = _sbss
  *(.bss)
@@ -1666,7 +1659,7 @@ LOAD C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugr
                 0x200007b8                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200007b8      0x400 load address 0x080061cc
+                0x200007b8      0x400 load address 0x08006288
                 0x200007b8                . = ALIGN (0x8)
                 [!provide]                PROVIDE (end = .)
                 [!provide]                PROVIDE (_end = .)
@@ -1702,84 +1695,86 @@ LOAD C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugr
  .ARM.attributes
                 0x00000188       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
  .ARM.attributes
-                0x000001b9       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+                0x000001b9       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
  .ARM.attributes
-                0x000001ea       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
+                0x000001ea       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
  .ARM.attributes
-                0x0000021b       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
+                0x0000021b       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
  .ARM.attributes
-                0x0000024c       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
+                0x0000024c       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
  .ARM.attributes
-                0x0000027d       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
+                0x0000027d       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(nvmem_api.o)
  .ARM.attributes
-                0x000002ae       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
+                0x000002ae       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(radio.o)
  .ARM.attributes
-                0x000002df       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
+                0x000002df       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rtc.o)
  .ARM.attributes
-                0x00000310       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
+                0x00000310       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sensit_api.o)
  .ARM.attributes
-                0x00000341       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
+                0x00000341       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_api.o)
  .ARM.attributes
-                0x00000372       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_pn.o)
+                0x00000372       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_internal.o)
  .ARM.attributes
-                0x000003a3       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
+                0x000003a3       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_pn.o)
  .ARM.attributes
-                0x000003d4       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sleep.o)
+                0x000003d4       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_scramb.o)
  .ARM.attributes
-                0x00000405       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
+                0x00000405       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sleep.o)
  .ARM.attributes
-                0x00000436       0x21 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
+                0x00000436       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(spi.o)
  .ARM.attributes
-                0x00000457       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(system_stm32f0xx.o)
+                0x00000467       0x21 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(startup_stm32f042x6.o)
  .ARM.attributes
-                0x00000488       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(systick.o)
+                0x00000488       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(system_stm32f0xx.o)
  .ARM.attributes
-                0x000004b9       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(uart.o)
+                0x000004b9       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(systick.o)
  .ARM.attributes
-                0x000004ea       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
+                0x000004ea       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(uart.o)
  .ARM.attributes
-                0x0000051b       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
+                0x0000051b       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_conf.o)
  .ARM.attributes
-                0x0000054c       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
+                0x0000054c       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_core.o)
  .ARM.attributes
-                0x0000057d       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
+                0x0000057d       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ctlreq.o)
  .ARM.attributes
-                0x000005ae       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(watchdog.o)
+                0x000005ae       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(usbd_ioreq.o)
  .ARM.attributes
-                0x000005df       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
+                0x000005df       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(watchdog.o)
  .ARM.attributes
-                0x00000610       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(aes.o)
+                0x00000610       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(adc.o)
  .ARM.attributes
-                0x00000641       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
+                0x00000641       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(aes.o)
  .ARM.attributes
-                0x00000672       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
+                0x00000672       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(calib.o)
  .ARM.attributes
-                0x000006a3       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(crc.o)
+                0x000006a3       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(cc1125.o)
  .ARM.attributes
-                0x000006d4       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
+                0x000006d4       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(crc.o)
  .ARM.attributes
-                0x00000705       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
+                0x00000705       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(flash.o)
  .ARM.attributes
-                0x00000736       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(i2c.o)
+                0x00000736       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(gpio.o)
  .ARM.attributes
-                0x00000767       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(led.o)
+                0x00000767       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(i2c.o)
  .ARM.attributes
-                0x00000798       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(my_string.o)
+                0x00000798       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(led.o)
  .ARM.attributes
-                0x000007c9       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
+                0x000007c9       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(my_string.o)
  .ARM.attributes
-                0x000007fa       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
+                0x000007fa       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(rf_api.o)
  .ARM.attributes
-                0x0000082b       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
+                0x0000082b       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_crc.o)
  .ARM.attributes
-                0x0000085c       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_hmac.o)
+                0x0000085c       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_decode.o)
  .ARM.attributes
-                0x0000088d       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+                0x0000088d       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(sigfox_hmac.o)
  .ARM.attributes
-                0x000008be       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
+                0x000008be       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
+ .ARM.attributes
+                0x000008ef       0x31 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
 OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/bin/sensit.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x2050
+.debug_info     0x00000000     0x257b
  .debug_info    0x00000000      0x3cb C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
  .debug_info    0x000003cb      0x1e9 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/button.o
  .debug_info    0x000005b4      0x2fa C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/battery.o
@@ -1789,10 +1784,11 @@ OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beau
  .debug_info    0x00000f66      0x173 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fcc.o
  .debug_info    0x000010d9      0x357 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
  .debug_info    0x00001430      0x364 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
- .debug_info    0x00001794      0x2f3 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
- .debug_info    0x00001a87      0x5c9 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
+ .debug_info    0x00001794      0x4f3 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+ .debug_info    0x00001c87      0x2f3 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+ .debug_info    0x00001f7a      0x601 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
 
-.debug_abbrev   0x00000000      0xcb0
+.debug_abbrev   0x00000000      0xe0a
  .debug_abbrev  0x00000000      0x133 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
  .debug_abbrev  0x00000133      0x10e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/button.o
  .debug_abbrev  0x00000241      0x177 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/battery.o
@@ -1802,10 +1798,11 @@ OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beau
  .debug_abbrev  0x000006b3      0x110 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fcc.o
  .debug_abbrev  0x000007c3      0x137 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
  .debug_abbrev  0x000008fa      0x135 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
- .debug_abbrev  0x00000a2f       0xe0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
- .debug_abbrev  0x00000b0f      0x1a1 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
+ .debug_abbrev  0x00000a2f      0x15a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+ .debug_abbrev  0x00000b89       0xe0 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+ .debug_abbrev  0x00000c69      0x1a1 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
 
-.debug_loc      0x00000000      0x9d2
+.debug_loc      0x00000000      0xbf4
  .debug_loc     0x00000000       0xfb C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
  .debug_loc     0x000000fb       0x95 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/button.o
  .debug_loc     0x00000190       0x7a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/battery.o
@@ -1814,10 +1811,11 @@ OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beau
  .debug_loc     0x00000454       0xae C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fcc.o
  .debug_loc     0x00000502      0x241 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
  .debug_loc     0x00000743      0x176 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
- .debug_loc     0x000008b9       0x8f C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
- .debug_loc     0x00000948       0x8a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
+ .debug_loc     0x000008b9      0x223 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+ .debug_loc     0x00000adc       0x8f C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+ .debug_loc     0x00000b6b       0x89 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
 
-.debug_aranges  0x00000000      0x190
+.debug_aranges  0x00000000      0x1d8
  .debug_aranges
                 0x00000000       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
  .debug_aranges
@@ -1837,11 +1835,13 @@ OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beau
  .debug_aranges
                 0x00000118       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
  .debug_aranges
-                0x00000150       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+                0x00000150       0x48 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
  .debug_aranges
-                0x00000170       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
+                0x00000198       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+ .debug_aranges
+                0x000001b8       0x20 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
 
-.debug_ranges   0x00000000       0xe0
+.debug_ranges   0x00000000      0x118
  .debug_ranges  0x00000000       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
  .debug_ranges  0x00000018       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/button.o
  .debug_ranges  0x00000028       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/battery.o
@@ -1851,10 +1851,11 @@ OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beau
  .debug_ranges  0x00000070       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fcc.o
  .debug_ranges  0x00000080       0x18 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
  .debug_ranges  0x00000098       0x28 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
- .debug_ranges  0x000000c0       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
- .debug_ranges  0x000000d0       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
+ .debug_ranges  0x000000c0       0x38 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+ .debug_ranges  0x000000f8       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+ .debug_ranges  0x00000108       0x10 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
 
-.debug_line     0x00000000      0x95a
+.debug_line     0x00000000      0xac4
  .debug_line    0x00000000      0x12e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
  .debug_line    0x0000012e       0xa7 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/button.o
  .debug_line    0x000001d5       0xab C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/battery.o
@@ -1864,10 +1865,11 @@ OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beau
  .debug_line    0x000004a7       0xa2 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fcc.o
  .debug_line    0x00000549      0x104 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
  .debug_line    0x0000064d      0x11e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
- .debug_line    0x0000076b       0xc5 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
- .debug_line    0x00000830      0x12a C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
+ .debug_line    0x0000076b      0x170 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+ .debug_line    0x000008db       0xc5 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+ .debug_line    0x000009a0      0x124 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
 
-.debug_str      0x00000000      0xbe8
+.debug_str      0x00000000      0xd22
  .debug_str     0x00000000      0x304 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
                                 0x325 (size before relaxing)
  .debug_str     0x00000304       0x6e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/button.o
@@ -1886,10 +1888,12 @@ OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beau
                                 0x261 (size before relaxing)
  .debug_str     0x00000870      0x111 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
                                 0x2f9 (size before relaxing)
- .debug_str     0x00000981      0x1c9 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+ .debug_str     0x00000981      0x146 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+                                0x331 (size before relaxing)
+ .debug_str     0x00000ac7      0x1c9 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
                                 0x35b (size before relaxing)
- .debug_str     0x00000b4a       0x9e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
-                                0x58d (size before relaxing)
+ .debug_str     0x00000c90       0x92 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
+                                0x5f2 (size before relaxing)
 
 .comment        0x00000000      0x16d
  .comment       0x00000000       0x7f C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
@@ -1902,6 +1906,7 @@ OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beau
  .comment       0x0000007f       0x80 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fcc.o
  .comment       0x0000007f       0x80 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
  .comment       0x0000007f       0x80 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
+ .comment       0x0000007f       0x80 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
  .comment       0x0000007f       0x80 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
  .comment       0x0000007f       0x80 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
  .comment       0x0000007f       0x7e C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(mcu_api.o)
@@ -1942,7 +1947,7 @@ OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beau
  .comment       0x0000016d       0x7f C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(stm32f0xx_hal_pcd.o)
  .comment       0x0000016d       0x7f C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/sdk/lib\libSENSIT_SDK_V2.0.0.a(modulation.o)
 
-.debug_frame    0x00000000      0x2a8
+.debug_frame    0x00000000      0x370
  .debug_frame   0x00000000       0x44 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/error.o
  .debug_frame   0x00000044       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/button.o
  .debug_frame   0x00000074       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/battery.o
@@ -1952,5 +1957,6 @@ OUTPUT(C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beau
  .debug_frame   0x00000140       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fcc.o
  .debug_frame   0x00000170       0x4c C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/hts221.o
  .debug_frame   0x000001bc       0x88 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/ltr329.o
- .debug_frame   0x00000244       0x34 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
- .debug_frame   0x00000278       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
+ .debug_frame   0x00000244       0xc8 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/fxos8700.o
+ .debug_frame   0x0000030c       0x34 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/discovery.o
+ .debug_frame   0x00000340       0x30 C:/Users/Matthieu/Documents/TPsensit/hei-2018-2019-lab-sens-it-petit-beaugrand-deroide/sensit-sdk-v2.0.0/obj/main.o
